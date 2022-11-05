@@ -23,7 +23,7 @@
       pip:
         name: docker-py
         state: present
-    - name: Start the container
+    - name: Start container
       docker_container:
         name: hariapp
         image: "kammana/hariapp:{{DOCKER_TAG}}"
