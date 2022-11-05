@@ -1,0 +1,3 @@
+[dev]
+192.168.1.70 ansible_user=denis 
+192.168.1.69 ansible_user=koss 
